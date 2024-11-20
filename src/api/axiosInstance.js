@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: 'https://backend-iky0.onrender.com/api', // Adjusted this URL based on backend server configuration
+  baseURL: 'https://backend-iky0.onrender.com/api',
 });
 
 // Function to get all articles
